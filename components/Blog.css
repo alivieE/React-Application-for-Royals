@@ -1,0 +1,27 @@
+.blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .blog-post {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post img {
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .blog-content {
+    flex: 1;
+  }
+  
+  .blog-content h3 {
+    color: #333;
+  }
+  
+  .blog-content p {
+    color: #666;
+  }
+  

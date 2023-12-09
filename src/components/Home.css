@@ -1,0 +1,191 @@
+
+
+@media (min-width: 992px){
+    header {
+        background-color: skyblue;
+        color: #333;
+        text-align: center;
+        padding: 15px; /* Increase padding for better spacing */
+        font-size: 1em; /* Increase font size for better visibility */
+    }
+    
+    .home {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    section {
+        padding: 40px; /* Increase padding for better spacing */
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px; /* Adjust width for better utilization of screen space */
+        margin-bottom: 5%; /* Reduce margin for better spacing */
+    }
+    
+    .image-container img {
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 350px; /* Use full width of the container */
+    }
+    
+    .company-description {
+        padding-left: 8%;
+        padding-right: 15%;
+        text-indent: 5%;
+        font-size: 1.4em;
+        display: inline-flexbox;
+    }
+    
+    .company-description p {
+        padding-top: 10%; /* Adjust padding for better spacing */
+        
+    }
+}
+@media(min-width: 768px) and (max-width:992px) {
+    header {
+        background-color: skyblue;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        font-size: 1em;
+    }
+    
+    .home {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 60%;
+        margin-bottom: 10%;
+    }
+    
+    .image-container img{
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 70%;
+       
+    }
+    
+    .company-description {
+        text-indent: 10%;
+        margin-right: 5%;
+        margin-top: 5%;
+        font-size: large;
+        text-align: 0.9em;
+        display: block;
+        width: 50%;
+        
+    }
+
+    .company-description p{
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    header {
+        background-color: skyblue;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        font-size: 0.6em;
+    }
+    
+    .home {
+        display: space-around;
+        justify-content: space-around;
+    }
+    
+    section {
+        padding: 20px;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 3vh;
+        
+    }
+    
+    .image-container img{
+        height: auto;
+        margin-bottom: 20px;                    
+    }
+    
+    .company-description {
+        text-indent: 5%;
+            
+        display: inline;
+    }
+
+    .company-description p{
+        padding-top: 10px;
+        margin-bottom: 100px;
+    }
+}
+
+/*@media(min-width: 1000px) and (max-width:2200px) {
+    header {
+        background-color: skyblue;
+        color: #333;
+        text-align: center;
+        padding: 15px; 
+        font-size: 1em; 
+    }
+    
+    .home {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    section {
+        padding: 40px;
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: left;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 600px; 
+        margin-bottom: 5%; 
+    }
+    
+    .image-container img {
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        width: 350px;
+    }
+    
+    .company-description {
+        text-indent: 5%;
+            
+        display: inline;
+    }
+    
+    .company-description p {
+        padding-top: 10%;
+    }
+}*/

@@ -1,0 +1,123 @@
+
+  @media (min-width: 992px)
+    {
+      .services-container {
+        max-width: 1600px; /* Adjusted for 1920px wide screens */
+        margin: 20px auto;
+    }
+    
+    .services-container h2 {
+        font-size: 2em; /* Adjusted font size */
+        text-align: center;
+    }
+    
+    .service {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    
+    .service img {
+        max-width: 400px; /* Adjusted max-width for larger screens */
+        margin-right: 20px;
+    }
+    
+    .service-details {
+        flex: 1;
+    }
+    
+    .service-details h3 {
+        color: #333;
+    }
+    
+    .service-details p {
+        color: #666;
+    }
+    
+    .about-container {
+        overflow: hidden;
+    }
+    
+    }
+    
+  @media (min-width: 768px) and (max-width:992px)
+    {
+      .services-container {
+        max-width: 800px;
+        margin: 20px auto;
+      }
+      .services-container h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2em;
+      }
+      
+      .service {
+        font-size: 1.4em;
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        margin-bottom: 20px;
+      }
+      
+      .service img {
+        width: 50%;
+        height: auto;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+      
+      .service-details {
+        flex: 1;
+      }
+      
+      .service-details h3 {
+        margin-top: 20px;
+        color: #333;
+      }
+      
+      .service-details p {
+        color: #666;
+        font-size: 0.7em;
+      }
+      
+    }
+    
+  @media (max-width: 768px) 
+    {
+      .services-container {
+        max-width: 800px;
+        margin: 20px auto;
+    }
+    
+    .services-container h2 {
+        font-size: 1.5em;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .service {
+      font-size: 0.9em;
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-bottom: 30%;
+    }
+    
+    .service img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 20px;
+    }
+    
+    .service-details {
+        flex: 1;
+    }
+    
+    .service-details h3 {
+        color: #333;
+    }
+    
+    .service-details p {
+        color: #666;
+    }  
+}
+    

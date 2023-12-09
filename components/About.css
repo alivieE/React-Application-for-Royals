@@ -1,0 +1,36 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding-top: 3vh;   
+    font-family: 'Courier New', Courier, monospace;
+    background-color: skyblue;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 20vh;
+  }
+  
+  .about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    width: 40vw;
+    margin-right: 3vw;
+    border-radius: 8px; /* Скруглення */
+    height: 25vh;
+    padding: 3vw;
+  }
+  .about-section:nth-child(even) {
+    background-color: #3498db; /* Стилізація кожного другого елемента about-section */
+    
+  }
+  .about-header {
+    background-color: skyblue; 
+    color: #082b43; 
+    text-align: center;
+    padding: 5vh;
+  }

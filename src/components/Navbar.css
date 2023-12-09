@@ -1,0 +1,169 @@
+@media (min-width: 992px) 
+{
+.navbar {
+    background-color: #0a131e;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #0a131e;
+    overflow: hidden;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 17px;
+    text-decoration: none;
+}
+
+nav img{
+    padding: 4px 5px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.logoheader {
+    display: flex;
+}
+
+.companyName {
+    color: #ddd;
+    padding: 15px 20px;
+}
+}
+@media (min-width: 768px) and (max-width:992px)
+{
+    .navbar {
+        background-color: #0a131e;
+    }
+    
+    nav {
+        margin: 0 auto;
+        background-color: #0a131e;
+        overflow: hidden;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 13px 10px;
+        text-decoration: none;
+    }
+    
+    nav img{
+        padding: 4px 5px;
+    }
+    
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+    }
+    
+    .logoheader {
+        display: flex;
+        font-size: 0.8em;
+        justify-content: space-around;
+        align-items:center;
+    }
+
+    .logoheader img {
+        width: 90%;
+        height: fit-content;
+        padding-left: 50px;
+    }
+    
+    .companyName {
+        color: #ddd;
+        padding: 15px 20px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .navbar{
+        background-color: #0a131e;/*Колір фону навігаціної панелі*/
+    }
+    nav {
+        margin: 0 auto;/*Центруємо навігаційну панель*/
+        background-color: #0a131e;/*Колір фону панелі*/
+        overflow: hidden;/*Якщо контент виходить за елемент обрізаємо*/
+        width: 96%;/*Ширина елемента nav*/
+        justify-content: center;/*Щоб елементий горизонтально були по краям*/
+    }
+    /*Стилі для посилань*/
+    nav a {
+        display: block;
+        color: white;
+        padding: 8px 5px;
+        text-decoration: none;
+    }
+    /*Стилі для зображення*/
+    nav img {
+        width: 20%;
+    }
+    /*Стилі для посилань при наведенні миші*/
+    nav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .companyName{
+        font-size: 2em;
+        color: skyblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    /*Стилі для списка посилань*/
+    ul{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 0;
+    }
+    .companyName{
+        font-size: 2em;
+        margin-right: 20px;
+        color: #ddd;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .logoheader{
+        display:flex;
+        font-size: 0.8em;
+        margin-top: 2%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logoheader img{
+        width: 43%;
+        height:fit-content;
+        margin-right: 20px;
+    }
+}

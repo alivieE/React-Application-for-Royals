@@ -1,0 +1,27 @@
+.services-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .service {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .service img {
+    max-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .service-details {
+    flex: 1;
+  }
+  
+  .service-details h3 {
+    color: #333;
+  }
+  
+  .service-details p {
+    color: #666;
+  }
+  

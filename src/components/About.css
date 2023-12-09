@@ -1,0 +1,126 @@
+.about-container {
+  overflow: hidden;
+}
+@media (min-width: 992px){
+  .about-container {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      padding-top: 3vh;   
+      font-family: 'Courier New', Courier, monospace;
+      background-color: skyblue;
+      background-size: cover;
+      padding-left: 10vw;
+      padding-right: 10%;
+      padding-bottom: 20vh;
+    }
+    
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    .about-image {
+      width: 40vw;
+      margin-right: 3vw;
+      border-radius: 8px; 
+      height: 25vh;
+      padding: 3vw;
+    }
+    .about-section:nth-child(even) {
+      background-color: #3498db; 
+      
+    }
+    .about-header {
+      background-color: skyblue; 
+      color: #082b43; 
+      text-align: center;
+      padding: 5vh;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width:992px)
+  {
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      width: 80vw;
+      padding-top: 3vh;   
+      font-family: 'Courier New', Courier, monospace;
+      background-color: skyblue;
+      padding-left: 10vw;
+      padding-right: 7.94vw;
+      padding-bottom: 20vh;
+    }
+    
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    
+    .about-image {
+      width: 40vw;
+      margin-right: 3vw;
+      border-radius: 8px;
+      height: 25vh;
+      padding: 3vw;
+    }
+    .about-section:nth-child(even) {
+      background-color: #3498db;
+      
+    }
+    .about-header {
+      background-color: skyblue; 
+      color: #082b43; 
+      text-align: center;
+      padding: 5vh;
+    }
+  }
+  
+  @media (max-width: 768px) 
+  {
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding-top: 3vh;   
+      font-family: 'Courier New', Courier, monospace;
+      background-color: skyblue;
+      margin: 0 auto;
+      padding-bottom: 20vh;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      font-size:0.6em;
+      margin: 10px;
+    }
+    
+    .about-image {
+      width: 40vw;
+      margin-right: 3vw;
+      border-radius: 8px; 
+      height: 25vh;
+      padding: 3vw;
+    }
+    .about-section:nth-child(even) {
+      background-color: #3498db; 
+      
+    }
+    .about-header {
+      background-color: skyblue; 
+      color: #082b43; 
+      text-align: center;
+      padding: 5vh;
+    }
+  }
+  

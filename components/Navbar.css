@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #333;/*Колір фону навігаціної панелі*/
+}
+nav {
+    margin: 0 auto;/*Центруємо навігаційну панель*/
+    background-color: #333;/*Колір фону панелі*/
+    overflow: hidden;/*Якщо контент виходить за елемент обрізаємо*/
+    width: 96%;/*Ширина елемента nav*/
+    display: flex;/*Щоб елементий йшли в ряд*/
+    justify-content: space-between;/*Щоб елементий горизонтально були по краям*/
+    align-content: center;/*Щоб елементий вертикально були по центру*/
+}
+/*Стилі для посилань*/
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Стилі для зображення*/
+nav img {
+    width: 20%;
+}
+/*Стилі для посилань при наведенні миші*/
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/*Стилі для заголовка із іменем компанії*/
+.companyName{
+    font-size: 2em;
+    color: skyblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Стилі для списка посилань*/
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.logoheader{
+    display:flex;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+}
